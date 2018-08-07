@@ -12,8 +12,13 @@ end
 breakfast("scrambled eggs")
 breakfast
 
-def lunch("grilled cheese")
-  puts "Afternoon is the best time for "
+def lunch(ln = "grilled cheese")
+  puts "Afternoon is the best time for #{ln}! "
+end 
+
+def dinner(dindin = "salmon")
+  puts "Evening is the best time for #{dindin}!"
+end 
 
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
