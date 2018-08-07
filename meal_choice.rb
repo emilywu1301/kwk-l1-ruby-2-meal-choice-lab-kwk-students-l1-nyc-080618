@@ -31,7 +31,7 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-
+puts breakfast
 
 # Call your methods without any arguments here
 puts snacks
