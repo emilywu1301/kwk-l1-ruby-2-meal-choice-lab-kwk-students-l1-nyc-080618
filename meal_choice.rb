@@ -16,6 +16,9 @@ def lunch(ln = "grilled cheese")
   puts "Afternoon is the best time for #{ln}! "
 end 
 
+lunch
+lunch("cheeseburger")
+
 def dinner(dindin = "salmon")
   puts "Evening is the best time for #{dindin}!"
 end 
